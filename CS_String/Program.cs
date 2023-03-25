@@ -30,8 +30,6 @@
             Console.WriteLine("  Task 3");
             Console.Write(" Enter string : ");
             str = Console.ReadLine();
-            //char[] reverse = str.ToCharArray();
-            //Array.Reverse(reverse);
             Console.WriteLine($" String \"{str}\" is{(new string(str.Reverse().ToArray()) == str ? "" : " not")} a palindrom...");
             Console.ReadKey();
 
