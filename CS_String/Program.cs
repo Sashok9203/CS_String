@@ -60,8 +60,6 @@
         {
             int lowerCount = 0;
             float lcPer;
-            Console.Clear();
-            Console.WriteLine("  Task 4");
             string? str = getString(" Enter string : ");
             foreach (char ch in str)
                 if (Char.IsLower(ch)) ++lowerCount;
